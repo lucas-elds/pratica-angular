@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card-moto {
+  background-color: #eeeeee;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.fabricante-moto,
+.modelo-moto,
+.placa-moto {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#adicionar {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
